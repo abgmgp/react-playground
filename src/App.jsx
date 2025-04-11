@@ -3,7 +3,6 @@ import Profile from './components/Profile'
 import Vite from './components/Vite'
 import Menu from './components/Menu'
 import ClickMe from './components/ClickMe'
-import ChangeBackground from './components/ChangeBackground'
 
 function App() {
 
@@ -13,7 +12,6 @@ function App() {
       <Profile />
       <Vite />
       <ClickMe />
-      <ChangeBackground />
     </>
   )
 }

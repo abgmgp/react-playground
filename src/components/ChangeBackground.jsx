@@ -1,3 +1,4 @@
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useEffect, useState } from 'react';
 
 const ChangeBackground = () => {
@@ -13,9 +14,8 @@ const ChangeBackground = () => {
     }
 
     return (
-      <div style={{marginTop: '20px' }}>
-          <button onClick={ChangeBackgroundFunction}>
-            {value}
+      <div>
+          <button className='bi bi-palette' style={{backgroundColor: '#333333'}} onClick={ChangeBackgroundFunction}>
           </button>
       </div>
     )
